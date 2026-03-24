@@ -19,7 +19,7 @@ Aplicación que transforma datos nutricionales en XML a una interfaz visual HTML
 - Interfaz visual amigable
 - Uso de estilos CSS
 
-👉 Ver proyecto: [nutricalc](https://github.com/reyes226/Proyectos/edit/Nutricalc/)
+👉 Ver proyecto: [nutricalc](https://github.com/reyes226/Proyectos/Nutricalc/recetas.xml)
 
 ---
 
