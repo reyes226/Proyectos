@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="estilo.xsl"?>
+<recetario>
+  <base_ingredientes>
+    <ingrediente_db nombre="pechuga de pollo">
+      <calorias>165</calorias>
+      <proteinas>31</proteinas>
+      <carbohidratos>0</carbohidratos>
+      <grasas>3.6</grasas>
+    </ingrediente_db>
+    <ingrediente_db nombre="arroz blanco">
+      <calorias>130</calorias>
+      <proteinas>2.7</proteinas>
+      <carbohidratos>28</carbohidratos>
+      <grasas>0.3</grasas>
+    </ingrediente_db>
+    <ingrediente_db nombre="brocoli">
+      <calorias>34</calorias>
+      <proteinas>2.8</proteinas>
+      <carbohidratos>6.6</carbohidratos>
+      <grasas>0.4</grasas>
+    </ingrediente_db>
+    <ingrediente_db nombre="pollo">
+      <calorias>149</calorias>
+      <proteinas>18</proteinas>
+      <carbohidratos>0</carbohidratos>
+      <grasas>8</grasas>
+    </ingrediente_db>
+    <ingrediente_db nombre="tortilla">
+      <calorias>50</calorias>
+      <proteinas>0</proteinas>
+      <carbohidratos>70</carbohidratos>
+      <grasas>0</grasas>
+    </ingrediente_db>
+    <ingrediente_db nombre="quesillo">
+      <calorias>200</calorias>
+      <proteinas>30</proteinas>
+      <carbohidratos>0</carbohidratos>
+      <grasas>20</grasas>
+    </ingrediente_db>
+    <ingrediente_db nombre="avena">
+      <calorias>150</calorias>
+      <proteinas>15</proteinas>
+      <carbohidratos>80</carbohidratos>
+      <grasas>0</grasas>
+    </ingrediente_db>
+    <ingrediente_db nombre="leche">
+      <calorias>150</calorias>
+      <proteinas>18</proteinas>
+      <carbohidratos>0</carbohidratos>
+      <grasas>12</grasas>
+    </ingrediente_db>
+    <ingrediente_db nombre="huevo">
+      <calorias>150</calorias>
+      <proteinas>30</proteinas>
+      <carbohidratos>0</carbohidratos>
+      <grasas>20</grasas>
+    </ingrediente_db>
+  </base_ingredientes>
+  <recetas>
+    <receta>
+      <titulo>Pollo Asado</titulo>
+      <descripcion>Pollo Asado con especias saborizantes</descripcion>
+      <nutricion>
+        <calorias>178.8 kcal</calorias>
+        <proteinas>21.6 g</proteinas>
+        <carbohidratos>0.0 g</carbohidratos>
+        <grasas>9.6 g</grasas>
+      </nutricion>
+      <ingredientes>
+        <ingrediente cantidad="120g">Pollo</ingrediente>
+      </ingredientes>
+      <utensilios>
+        <utensilio>Cuchillo</utensilio>
+        <utensilio>Sarten</utensilio>
+      </utensilios>
+      <pasos>
+        <paso>Calentar el sarten por 5 minutos</paso>
+        <paso>Colocar el pollo y cocinar por 10 minutos</paso>
+        <paso>Agregar especias al gusto</paso>
+      </pasos>
+    </receta>
+    <receta>
+      <titulo>Sincronizada</titulo>
+      <descripcion>Sincronizada</descripcion>
+      <nutricion>
+        <calorias>400.0 kcal</calorias>
+        <proteinas>45.0 g</proteinas>
+        <carbohidratos>140.0 g</carbohidratos>
+        <grasas>30.0 g</grasas>
+      </nutricion>
+      <ingredientes>
+        <ingrediente cantidad="200g">Tortilla</ingrediente>
+        <ingrediente cantidad="150g">Quesillo</ingrediente>
+      </ingredientes>
+      <utensilios>
+        <utensilio>Comal</utensilio>
+      </utensilios>
+      <pasos>
+        <paso>Deshebrar quesillo</paso>
+        <paso>Poner quesadilla en el comal</paso>
+      </pasos>
+    </receta>
+    <receta>
+      <titulo>Hot Cakes</titulo>
+      <descripcion>Hot Cakes de Avena</descripcion>
+      <nutricion>
+        <calorias>600.0 kcal</calorias>
+        <proteinas>70.5 g</proteinas>
+        <carbohidratos>200.0 g</carbohidratos>
+        <grasas>22.0 g</grasas>
+      </nutricion>
+      <ingredientes>
+        <ingrediente cantidad="250g">Avena</ingrediente>
+        <ingrediente cantidad="100g">Leche</ingrediente>
+        <ingrediente cantidad="50g">Huevo</ingrediente>
+      </ingredientes>
+      <utensilios>
+        <utensilio>Sarten</utensilio>
+        <utensilio>Espatula</utensilio>
+        <utensilio>Licuadora</utensilio>
+      </utensilios>
+      <pasos>
+        <paso>Licuar la avena, huevo y leche en la licuadora</paso>
+        <paso>Dividir la mezcla en 4 partes</paso>
+        <paso>Colocar la mezcla en el sarten y cocinar</paso>
+      </pasos>
+    </receta>
+    <receta>
+      <titulo>Huevo Revuelto</titulo>
+      <descripcion>Huevo revuelto</descripcion>
+      <nutricion>
+        <calorias>105.0 kcal</calorias>
+        <proteinas>21.0 g</proteinas>
+        <carbohidratos>0.0 g</carbohidratos>
+        <grasas>14.0 g</grasas>
+      </nutricion>
+      <ingredientes>
+        <ingrediente cantidad="70g">Huevo</ingrediente>
+      </ingredientes>
+      <utensilios>
+        <utensilio>Sarten</utensilio>
+        <utensilio>Espatula</utensilio>
+      </utensilios>
+      <pasos>
+        <paso>Romper el huevo y colocar en un sarten</paso>
+        <paso>Cocinar el huevo por 10 minutos</paso>
+      </pasos>
+    </receta>
+  </recetas>
+</recetario>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="recetario">
+        <xs:complexType>
+            <xs:sequence>
+                
+                <xs:element name="base_ingredientes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ingrediente_db" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="calorias" type="xs:decimal"/>
+                                        <xs:element name="proteinas" type="xs:decimal"/>
+                                        <xs:element name="carbohidratos" type="xs:decimal"/>
+                                        <xs:element name="grasas" type="xs:decimal"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="nombre" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="recetas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="receta" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titulo" type="xs:string"/>
+                                        <xs:element name="descripcion" type="xs:string"/>
+                                        <xs:element name="nutricion">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="calorias" type="xs:string"/>
+                                                    <xs:element name="proteinas" type="xs:string"/>
+                                                    <xs:element name="carbohidratos" type="xs:string"/>
+                                                    <xs:element name="grasas" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="ingredientes">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ingrediente" maxOccurs="unbounded" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="cantidad" type="xs:string" use="required"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="utensilios">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="utensilio" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="pasos">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="paso" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
